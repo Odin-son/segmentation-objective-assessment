@@ -5,8 +5,8 @@
   </a>
 </p>
 
-> The method for objective assessment to the result of change detection<br>
-> ![test](etc/test.gif) <br>
+> The number of methods that objective assessment to the result of change detection<br>
+> ![test](etc/assessment.gif) <br>
 
 ## Author
 
@@ -18,7 +18,7 @@
 ## Requirements
 * library
     * numpy
-    * cv2
+    * opencv-python
 
 ## Getting Started
 > in case of using virtualenv,
@@ -35,6 +35,11 @@ $ conda activate [env_name]
 ```
 $ pip install opencv-python numpy
 ```
+
+## Method
+> F1-score<br>
+
+> kappa[1] cohen
 
 ## 📝 License
 Copyright © 2020 [Changwoo Song](https://github.com/Odin-son).
